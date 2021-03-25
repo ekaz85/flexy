@@ -1,0 +1,110 @@
+main {
+    /*   border: 1px solid; */
+    /*   max-height: 400px; */
+      font-family: 'Open Sans', sans-serif;
+    }
+    /* header */
+    header {
+      padding: 10px 30px;
+      display: flex;
+      align-content: center;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+    li a {
+      text-decoration: none;
+      color: black;
+    }
+    /* section */
+    .section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 15px;
+      color: #B5CCCA;
+      text-align: center;
+    }
+    .icon1 {
+      width: 25px;
+      height: 25px;
+      margin-top: 5px;
+      margin-bottom: 0;
+      background: #B5CCCA;
+    }
+    .section1 {
+      height: 110px;
+      width: 90px;
+      background: black;
+    }
+    .section2 {
+      height: 110px;
+      width: 90px;
+      background: black;
+    }
+    .section3 {
+      height: 110px;
+      width: 90px;
+      background: black;
+    }
+    /* boxes */
+    .box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 10px;
+      text-align: center;
+      margin-bottom: 7px;
+    }
+    .box__sun {
+      height: 50px;
+      width: 50px;
+      background: #B5CCCA;
+    }
+    .box__friends {
+      height: 50px;
+      width: 50px;
+      background: #B5CCCA;
+    }
+    .box__travel {
+      height: 50px;
+      width: 50px;
+      background: #B5CCCA;
+    }
+    .box__movies {
+      height: 50px;
+      width: 50px;
+      background: #B5CCCA;
+    }
+    .box__nature {
+      height: 50px;
+      width: 50px;
+      background: #B5CCCA;
+    }
+    .icon2 {
+      width: 15px;
+        height: 15px;
+        margin-bottom: -15px;
+      }
+    /* footer */
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 7px;
+      height: 20px;
+      border-top: 1px solid #B5CCCA;
+      text-decoration: none;
+    }
+    a {
+      text-decoration: none;
+      font-size: 10px;
+      color: black;
+    }
+    .icon3 {
+      width: 8px;
+      height: 8px;
+    }
