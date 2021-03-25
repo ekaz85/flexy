@@ -1,15 +1,27 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
 main {
-    /*   border: 1px solid; */
-    /*   max-height: 400px; */
       font-family: 'Open Sans', sans-serif;
+      /* vertical height */
+      height: 100vh; 
+      border: 1px solid;
     }
     /* header */
     header {
-      padding: 10px 30px;
+      padding: 5px 30px;
       display: flex;
       align-content: center;
       align-items: baseline;
       justify-content: space-between;
+      border: 1px solid;
+      height: 15vh;
+      /* 100 - 10 + 60 + 20 + 10 */
     }
     li {
       display: inline-block;
@@ -20,13 +32,15 @@ main {
       color: black;
     }
     /* section */
-    .section {
+    .section-1 {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin-bottom: 15px;
       color: #B5CCCA;
       text-align: center;
+      border: 1px solid red;
+      height: 60vh;
+      padding-bottom: 10px;
     }
     .icon1 {
       width: 25px;
@@ -35,58 +49,51 @@ main {
       margin-bottom: 0;
       background: #B5CCCA;
     }
-    .section1 {
-      height: 110px;
-      width: 90px;
+    .code {
+      width: 220px;
       background: black;
     }
-    .section2 {
-      height: 110px;
-      width: 90px;
+    .coffee {
+      width: 220px;
       background: black;
     }
-    .section3 {
-      height: 110px;
-      width: 90px;
+    .music {
+      width: 220px;
       background: black;
     }
-    /* boxes */
-    .box {
+
+    /* section 2 */
+    .section-2 {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       font-size: 10px;
       text-align: center;
-      margin-bottom: 7px;
+      height: 20vh;
+      border: 1px solid green;
     }
     .box__sun {
-      height: 50px;
-      width: 50px;
+      width: 120px;
       background: #B5CCCA;
     }
     .box__friends {
-      height: 50px;
-      width: 50px;
+      width: 120px;
       background: #B5CCCA;
     }
     .box__travel {
-      height: 50px;
-      width: 50px;
+      width: 120px;
       background: #B5CCCA;
     }
     .box__movies {
-      height: 50px;
-      width: 50px;
+      width: 120px;
       background: #B5CCCA;
     }
     .box__nature {
-      height: 50px;
-      width: 50px;
+      width: 120px;
       background: #B5CCCA;
     }
     .icon2 {
       width: 15px;
-        height: 15px;
         margin-bottom: -15px;
       }
     /* footer */
@@ -98,6 +105,9 @@ main {
       height: 20px;
       border-top: 1px solid #B5CCCA;
       text-decoration: none;
+      border: 1px solid red;
+      padding: 10px;
+      height: 5vh;
     }
     a {
       text-decoration: none;
